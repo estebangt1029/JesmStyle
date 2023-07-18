@@ -9,3 +9,16 @@ document.addEventListener("keyup", e=>{
         })
     }
 })
+
+// menu
+let ajustes=document.getElementById('ajustes');
+let menu=document.getElementById('menu');
+
+ajustes.addEventListener('click',()=>{
+    if(menu.style.display === "none"){
+        menu.style.display='block'
+    }else{
+        menu.style.display='none'
+    }
+})
+// fin menu
