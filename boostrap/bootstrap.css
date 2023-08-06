@@ -1,3 +1,29 @@
+/* mis estilos */
+
+  .bg-header{
+    /* background-color: #1A4C50; */
+    /* background-color: #184A45; */
+    /* background-color: #0D171A; */
+    /* background-color: #B8BAAD; */
+    /* background-color: #417571; */
+
+    /* background-color: #202723; */
+    /* background-color: #3a4741; */
+    /* background-color: #5c7470; */
+    /* background-color: #8da0a4; */
+    /* background-color: #b0bfc2; */
+
+    /* background-color: #263a47; */
+    /* background-color: #4a5b6a; */
+    /* background-color: #728495; */
+    /* background-color: #98a9be; */
+    background-color: #b4c5db;
+  }
+
+/* fin */
+
+
+
 @charset "UTF-8";
 /*!
  * Bootstrap  v5.3.0 (https://getbootstrap.com/)
