@@ -1,0 +1,10 @@
+.filtro{
+    display: none;
+}
+
+
+@media (max-width: 767px) {
+  .row {
+      gap: 1.5rem; /* Espacio de 1.5rem entre las columnas */
+  }
+}

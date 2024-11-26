@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./boostrap/bootstrap.css">
+    <link rel="stylesheet" href="./Styles/style.css">
+    <title>Sudaderas - Jesm Style</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+        }
+        .navbar {
+            background-color: #333;
+        }
+        .navbar .nav-link {
+            color: white;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        .navbar .nav-link:hover {
+            color: #f39c12;
+        }
+        .card {
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <header class="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">Jesm Style</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="pantalonetas.html">Pantalonetas</a></li>
+                        <li class="nav-item"><a class="nav-link" href="camisas.html">Camisas</a></li>
+                        <li class="nav-item"><a class="nav-link" href="conjuntos.html">Conjuntos</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="mt-5">
+        <section class="py-5 text-center">
+            <div class="container">
+                <h2 class="display-4 mb-4">Sudaderas</h2>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="card mb-4 h-100">
+                            <img src="./resources/s1.webp" class="card-img-top" alt="Sudadera WinterShield">
+                            <div class="card-body d-flex flex-column">
+                                <h3 class="card-title">Sudadera WinterShield</h3>
+                                <p class="card-text">Mantente cálido sin sacrificar estilo en los días más fríos.</p>
+                                <p><strong>Precio: $80.000 COP</strong></p>
+                                <button class="btn btn-primary w-100 mt-auto">Ver más</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 h-100">
+                            <img src="./resources/s2.webp" class="card-img-top" alt="Sudadera CozyFit">
+                            <div class="card-body d-flex flex-column">
+                                <h3 class="card-title">Sudadera CozyFit</h3>
+                                <p class="card-text">Perfecta para entrenar o relajarte con máxima comodidad.</p>
+                                <p><strong>Precio: $85.000 COP</strong></p>
+                                <button class="btn btn-primary w-100 mt-auto">Ver más</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 h-100">
+                            <img src="./resources/s3.webp" class="card-img-top" alt="Sudadera FlexWarm">
+                            <div class="card-body d-flex flex-column">
+                                <h3 class="card-title">Sudadera FlexWarm</h3>
+                                <p class="card-text">Diseño ligero y versátil para usar en cualquier ocasión.</p>
+                                <p><strong>Precio: $90.000 COP</strong></p>
+                                <button class="btn btn-primary w-100 mt-auto">Ver más</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 h-100">
+                            <img src="./resources/s4.webp" class="card-img-top" alt="Sudadera UrbanStyle">
+                            <div class="card-body d-flex flex-column">
+                                <h3 class="card-title">Sudadera UrbanStyle</h3>
+                                <p class="card-text">Ideal para el día a día con un toque moderno y casual.</p>
+                                <p><strong>Precio: $95.000 COP</strong></p>
+                                <button class="btn btn-primary w-100 mt-auto">Ver más</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 h-100">
+                            <img src="./resources/s5.webp" class="card-img-top" alt="Sudadera ActiveThermal">
+                            <div class="card-body d-flex flex-column">
+                                <h3 class="card-title">Sudadera ActiveThermal</h3>
+                                <p class="card-text">Protección térmica para mantenerte activo en cualquier clima.</p>
+                                <p><strong>Precio: $100.000 COP</strong></p>
+                                <button class="btn btn-primary w-100 mt-auto">Ver más</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 h-100">
+                            <img src="./resources/s6.webp" class="card-img-top" alt="Sudadera ProFit">
+                            <div class="card-body d-flex flex-column">
+                                <h3 class="card-title">Sudadera ProFit</h3>
+                                <p class="card-text">Diseñada para el máximo confort y libertad de movimiento.</p>
+                                <p><strong>Precio: $105.000 COP</strong></p>
+                                <button class="btn btn-primary w-100 mt-auto">Ver más</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="text-center py-4 bg-dark text-white">
+        <p>&copy; 2024 Jesm Style. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="./boostrap/bootstrap.bundle.js"></script>
+</body>
+</html>

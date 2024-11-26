@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./boostrap/bootstrap.css">
+    <link rel="stylesheet" href="./Styles/style.css">
+    <title>Jesm Style - Moda Deportiva de Alta Calidad</title>
+    <style>
+        /* Estilos adicionales */
+        body {
+            font-family: 'Arial', sans-serif;
+        }
+        .navbar {
+            background-color: #333;
+        }
+        .navbar .nav-link {
+            color: white;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        .navbar .nav-link:hover {
+            color: #f39c12;
+        }
+        .card {
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+        }
+        .card-img-top {
+            object-fit: cover;
+            height: 200px;
+        }
+        .btn-primary {
+            background-color: #f39c12;
+            border-color: #f39c12;
+        }
+        .btn-primary:hover {
+            background-color: #d35400;
+            border-color: #d35400;
+        }
+    </style>
+</head>
+<body>
+    
+<header class="fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">Jesm Style</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#productos">Productos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#herramientas">Herramientas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sobre-nosotros">Sobre Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonios">Testimonios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main class="mt-5 text-center">
+    <!-- Sección Bienvenida -->
+    <section id="inicio" class="py-5">
+        <div class="container">
+            <h2 class="display-4">Bienvenido a Jesm Style</h2>
+            <p class="lead">Ropa deportiva de alta calidad para potenciar tu rendimiento y estilo. Descubre nuestras colecciones únicas diseñadas pensando en ti.</p>
+        </div>
+    </section>
+
+    <!-- Sección Categorías -->
+    <section id="productos" class="py-5">
+      <div class="container">
+          <h2 class="display-4 mb-4">Categorías</h2>
+          <div class="row">
+              <div class="col-md-3">
+                  <div class="card">
+                      <img src="./resources/p1.webp" class="card-img-center" alt="Pantalones">
+                      <div class="card-body">
+                          <h3 class="card-title">Pantalones</h3>
+                          <p class="card-text">Descubre nuestros pantalones ideales para tus entrenamientos.</p>
+                          <a href="pantalonetas.html" class="btn btn-primary w-100">Ver productos</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-3">
+                  <div class="card">
+                      <img src="./resources/s1.webp" class="card-img-center" alt="Sudaderas">
+                      <div class="card-body">
+                          <h3 class="card-title">Sudaderas</h3>
+                          <p class="card-text">Perfectas para mantenerte cómodo y estilizado.</p>
+                          <a href="sudaderas.html" class="btn btn-primary w-100">Ver productos</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-3">
+                  <div class="card">
+                      <img src="./resources/c1.webp" class="" alt="Camisas">
+                      <div class="card-body">
+                          <h3 class="card-title">Camisas</h3>
+                          <p class="card-text">Camisas para tu día a día, cómodas y con estilo.</p>
+                          <a href="camisas.html" class="btn btn-primary w-100">Ver productos</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-3">
+                  <div class="card">
+                      <img src="./resources/cj1.png" class="" alt="Conjuntos">
+                      <div class="card-body">
+                          <h3 class="card-title">Conjuntos</h3>
+                          <p class="card-text">Conjuntos deportivos completos para cualquier actividad.</p>
+                          <a href="conjuntos.html" class="btn btn-primary w-100">Ver productos</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+    
+
+    <!-- Sección Herramientas Digitales -->
+    <section id="herramientas" class="py-5">
+        <div class="container">
+            <h2 class="display-4 mb-4">Herramientas Digitales</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <h3>Video del Avatar</h3>
+                    <video height="300px" width="100%" src="/resources/video.mp4" autoplay controls></video>
+                </div>
+                <div class="col-md-6 mb-4 d-flex flex-column justify-content-center align-items-center">
+                    <h3>App Móvil</h3>
+                    <p>Descarga nuestra app para explorar nuestra tienda desde tu dispositivo móvil.</p>
+                    <a href="https://gallery.appinventor.mit.edu/?galleryid=fe31fda7-e2bc-4418-ad36-5e97b943da05" class="btn btn-primary">Descargar App</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <h3>Kahoot</h3>
+                    <p>Participa en nuestro quiz interactivo sobre tendencias en ropa deportiva.</p>
+                    <iframe src="https://kahoot.it/" width="100%" height="300"></iframe>
+                </div>
+                <div class="col-md-6 mb-4 d-flex flex-column justify-content-center align-items-center">
+                    <h3>Juego Interactivo</h3>
+                    <p>Prueba nuestro juego sobre moda deportiva hecho en Scratch.</p>
+                    <a href="https://gallery.appinventor.mit.edu/?galleryid=fe31fda7-e2bc-4418-ad36-5e97b943da05" class="btn btn-primary">Ver Juego</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Sobre Nosotros -->
+    <section id="sobre-nosotros" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="display-4 mb-4">Sobre Nosotros</h2>
+            <p class="lead">Jesm Style nació con la idea de ofrecer ropa deportiva de calidad para quienes buscan mejorar su rendimiento físico sin sacrificar estilo. Nuestros productos están diseñados con materiales innovadores para maximizar tu comodidad mientras entrenas o te relajas.</p>
+        </div>
+    </section>
+
+    <!-- Sección Testimonios -->
+    <section id="testimonios" class="py-5">
+        <div class="container">
+            <h2 class="display-4 mb-4">Testimonios</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text">"Me encanta cómo se ajustan los conjuntos deportivos, son cómodos y me ayudan a rendir al máximo en mis entrenamientos."</p>
+                            <h5 class="card-title">Juan Pérez</h5>
+                            <p class="card-text">Atleta</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text">"La calidad de los productos es increíble, además tienen un estilo único. ¡Recomiendo totalmente Jesm Style!"</p>
+                            <h5 class="card-title">Ana García</h5>
+                            <p class="card-text">Entrenadora Personal</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text">"Finalmente, ropa deportiva que me da libertad de movimiento y se ve genial. ¡Me siento con más confianza!"</p>
+                            <h5 class="card-title">Carlos Martínez</h5>
+                            <p class="card-text">Deportista Amateur</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="display-4 mb-4">Contacto</h2>
+            <p class="lead">¿Tienes alguna pregunta o sugerencia? No dudes en ponerte en contacto con nosotros. ¡Estamos aquí para ayudarte!</p>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Correo Electrónico</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </section>
+</main>
+
+<footer class="text-center py-4 bg-dark text-white">
+    <p>&copy; 2024 Jesm Style. Todos los derechos reservados.</p>
+</footer>
+
+<script src="./boostrap/bootstrap.bundle.js"></script>
+</body>
+</html>

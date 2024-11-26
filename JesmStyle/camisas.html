@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./boostrap/bootstrap.css">
+    <link rel="stylesheet" href="./Styles/style.css">
+    <title>Camisas - Jesm Style</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+        }
+        .navbar {
+            background-color: #333;
+        }
+        .navbar .nav-link {
+            color: white;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        .navbar .nav-link:hover {
+            color: #f39c12;
+        }
+        .card {
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <header class="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">Jesm Style</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="pantalonetas.html">Pantalonetas</a></li>
+                        <li class="nav-item"><a class="nav-link" href="sudaderas.html">Sudaderas</a></li>
+                        <li class="nav-item"><a class="nav-link" href="conjuntos.html">Conjuntos</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="mt-5">
+        <section class="py-5 text-center">
+            <div class="container">
+                <h2 class="display-4 mb-4">Camisas</h2>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="card mb-4 h-100">
+                            <img src="./resources/c1.webp" class="card-img-top" alt="Camisa ProFit">
+                            <div class="card-body d-flex flex-column">
+                                <h3 class="card-title">Camisa ProFit</h3>
+                                <p class="card-text">Ligera, transpirable y perfecta para tus entrenamientos.</p>
+                                <p><strong>Precio: $55.000 COP</strong></p>
+                                <button class="btn btn-primary w-100 mt-auto">Ver más</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 h-100">
+                            <img src="./resources/c2.webp" class="card-img-top" alt="Camisa ActiveFlex">
+                            <div class="card-body d-flex flex-column">
+                                <h3 class="card-title">Camisa ActiveFlex</h3>
+                                <p class="card-text">Comodidad y estilo para un rendimiento óptimo.</p>
+                                <p><strong>Precio: $60.000 COP</strong></p>
+                                <button class="btn btn-primary w-100 mt-auto">Ver más</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 h-100">
+                            <img src="./resources/c3.webp" class="card-img-top" alt="Camisa MaxPerform">
+                            <div class="card-body d-flex flex-column">
+                                <h3 class="card-title">Camisa MaxPerform</h3>
+                                <p class="card-text">Diseño ergonómico para movimientos libres.</p>
+                                <p><strong>Precio: $58.000 COP</strong></p>
+                                <button class="btn btn-primary w-100 mt-auto">Ver más</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 h-100">
+                            <img src="./resources/c4.webp" class="card-img-top" alt="Camisa FlexPro">
+                            <div class="card-body d-flex flex-column">
+                                <h3 class="card-title">Camisa FlexPro</h3>
+                                <p class="card-text">Ideal para entrenamientos intensos con máxima frescura.</p>
+                                <p><strong>Precio: $62.000 COP</strong></p>
+                                <button class="btn btn-primary w-100 mt-auto">Ver más</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 h-100">
+                            <img src="./resources/c5.webp" class="card-img-top" alt="Camisa DynamicFit">
+                            <div class="card-body d-flex flex-column">
+                                <h3 class="card-title">Camisa DynamicFit</h3>
+                                <p class="card-text">Estilo dinámico para el gimnasio y la calle.</p>
+                                <p><strong>Precio: $65.000 COP</strong></p>
+                                <button class="btn btn-primary w-100 mt-auto">Ver más</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 h-100">
+                            <img src="./resources/c6.webp" class="card-img-top" alt="Camisa SportLine">
+                            <div class="card-body d-flex flex-column">
+                                <h3 class="card-title">Camisa SportLine</h3>
+                                <p class="card-text">Rinde al máximo con tecnología de secado rápido.</p>
+                                <p><strong>Precio: $63.000 COP</strong></p>
+                                <button class="btn btn-primary w-100 mt-auto">Ver más</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="text-center py-4 bg-dark text-white">
+        <p>&copy; 2024 Jesm Style. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="./boostrap/bootstrap.bundle.js"></script>
+</body>
+</html>
